@@ -40,8 +40,9 @@ SnapScrape.prototype._next = function(res, body, last, index){
 			last(res, body);
 			return true;
 		}else{
+			console.log(index)
 			self.middleware[index].
-				call(self, res, body, this._next.
+				call(self, res, body, self._next.
 					call(self, res, body, last, index + 1));
 		}
 		
