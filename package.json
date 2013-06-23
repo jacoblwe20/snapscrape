@@ -1,6 +1,5 @@
 {
   "name": "snapscrape",
-  "version": "0.0.1",
   "description": "Snapscrape is a modular scaper that fetchs content from other sites and uses middleware to parse the data",
   "main": "index.js",
   "scripts": {
