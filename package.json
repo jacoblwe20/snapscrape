@@ -1,6 +1,6 @@
 {
   "name": "snapscrape",
-  "version" : "0.0.2",
+  "version": "0.0.2",
   "description": "Snapscrape is a modular scaper that fetchs content from other sites and uses middleware to parse the data",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,8 @@
   },
   "dependencies": {
     "request": "~2.21.0",
-    "cheerio": "~0.12.0"
+    "cheerio": "~0.12.0",
+    "phantomjs": "~1.9.1-0"
   },
   "keywords": [
     "scapper",
