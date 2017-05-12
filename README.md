@@ -1,5 +1,7 @@
 ### Snapscape it
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jcblw/snapscrape.svg)](https://greenkeeper.io/)
+
 scraping the web with node on request.
 
 #### Use it.
